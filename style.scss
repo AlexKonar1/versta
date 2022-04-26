@@ -202,7 +202,7 @@ text-transform: uppercase;
   position: relative;
 }
 
-.filter:hover {
+.link_card:hover .filter {
 filter: brightness(24%);
 opacity: 0.8;
 }
@@ -278,7 +278,6 @@ opacity: 0.8;
 
 .link_card {
   text-decoration: none;
-
   position: relative;
 }
 
@@ -304,11 +303,6 @@ width: 138px;
 height: 43px;
 display: none;
 align-items: center;
-}
-
-.cart_card:hover {
-  color: #ff0000;
-  border: 2px solid rgb(255, 0, 0);
 }
 
 .korz {
@@ -563,4 +557,8 @@ text-transform: uppercase;
   padding-left: 9px;
   padding-right: 9px;
   background-color: #fff;
+}
+
+.link_mess {
+ fill: #FBFBFB;
 }

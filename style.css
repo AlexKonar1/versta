@@ -215,7 +215,7 @@
   position: relative;
 }
 
-.filter:hover {
+.link_card:hover .filter {
   -webkit-filter: brightness(24%);
           filter: brightness(24%);
   opacity: 0.8;
@@ -326,11 +326,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.cart_card:hover {
-  color: #ff0000;
-  border: 2px solid red;
 }
 
 .korz {
@@ -600,5 +595,9 @@
   padding-left: 9px;
   padding-right: 9px;
   background-color: #fff;
+}
+
+.link_mess {
+  fill: #FBFBFB;
 }
 /*# sourceMappingURL=style.css.map */
